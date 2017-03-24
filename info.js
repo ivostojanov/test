@@ -7,7 +7,7 @@ name = prompt("Enter your name:", "Enter name here:");
 }while(name=="" || name=="Enter your name:")
 	
 do{
-age = prompt("Enter your age:", "eg: 120");
+age = prompt("Enter your age:", "ex: 120");
 }while(isNaN(age))
 	
 console.log("Name:"+name+"\nAge:"+age);
